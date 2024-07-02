@@ -6,10 +6,13 @@ repository: https://github.com/google/protobuf.dart/tree/master/protoc_plugin
 environment:
   sdk: '>=2.19.0 <4.0.0'
 
+publish_to: none
+
 dependencies:
   fixnum: ^1.0.0
   path: ^1.8.0
-  protobuf: ^3.1.0
+  protobuf:
+    path: ../protobuf
 
 dev_dependencies:
   collection: ^1.15.0
